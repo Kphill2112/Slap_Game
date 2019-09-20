@@ -1,10 +1,24 @@
 <template>
   <div id="app">
-    <div id="nav">
-    </div>
-    <router-view />
+    <Home />
   </div>
 </template>
+
+<script>
+  import Home from './views/Home.vue'
+
+
+  //What did we learn?? 
+  //To always export default, and name our components/views   = ´∇｀=
+  //Components object too!
+  export default {
+    name: 'app',
+    components: {
+      Home
+    }
+  }
+
+</script>
 
 <style>
   #app {
