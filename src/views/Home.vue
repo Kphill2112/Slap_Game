@@ -1,12 +1,26 @@
 <template>
-  <div class="home">
-    <div class="navbar">
-      <div class="homeLogo">
-        <p>Home</p>
-        <p>Characters</p>
-        <p>About</p>
+  <div class="home container-fluid">
+    <div class="row">
+      <div class="navbar col-lg-12 col-md-12">
+        <div class="row homeLogo">
+          <div class="col-lg-4 col-md-12 ">
+            <p>Home</p>
+          </div>
+          <div class="col-lg-4 col-md-12 ">
+            <p>Characters</p>
+          </div>
+          <div class="col-lg-4 col-md-12 ">
+            <p>About</p>
+          </div>
+        </div>
+        <!-- <div class="homeLogo ">
+          <p>Home</p>
+          <p>Characters</p>
+          <p>About</p>
+        </div> -->
       </div>
     </div>
+
   </div>
 </template>
 
@@ -24,28 +38,25 @@
 <style>
   .navbar {
     display: flex;
-    margin-top: 5%;
     margin: 1% auto;
     align-content: center;
-    height: 100px;
+    height: auto;
     width: 75%;
-    background-color: gray;
+    background-color: rgba(0, 0, 0, 0.377);
     border: 2px solid black;
     text-align: center;
   }
 
   .homeLogo {
-    display: table;
+    display: flex;
     text-align: center;
-    width: 100%;
-    overflow: hidden;
-    padding: 1.5em .25em;
-
+    width: 100vw;
+    margin: auto auto;
   }
 
   .homeLogo p {
+
     cursor: pointer;
-    display: table-cell;
     vertical-align: middle;
     font-size: 1.5em;
     line-height: 2;
@@ -62,18 +73,17 @@
   @-webkit-keyframes flicker {
     0% {
       opacity: 0;
+      text-shadow: 2px 2px #f291ff;
     }
 
     9% {
       opacity: 0;
+      text-shadow: 2px 2px #f291ff;
     }
 
     10% {
       opacity: .5;
-    }
-
-    13% {
-      opacity: 0;
+      text-shadow: 2px 2px #f291ff;
     }
   }
 </style>
