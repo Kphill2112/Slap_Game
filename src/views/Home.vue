@@ -13,22 +13,21 @@
             <p>About</p>
           </div>
         </div>
-        <!-- <div class="homeLogo ">
-          <p>Home</p>
-          <p>Characters</p>
-          <p>About</p>
-        </div> -->
       </div>
     </div>
+
+    <selectCharacter />
+
 
   </div>
 </template>
 
 <script>
+  import selectCharacter from '../components/SelectCharacter.vue'
   export default {
     name: 'Home',
     components: {
-
+      selectCharacter
     }
   }
 
@@ -41,7 +40,7 @@
     margin: 1% auto;
     align-content: center;
     height: auto;
-    width: 75%;
+    width: 80vw;
     background-color: rgba(0, 0, 0, 0.377);
     border: 2px solid black;
     text-align: center;

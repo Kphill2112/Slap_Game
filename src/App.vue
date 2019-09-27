@@ -27,7 +27,7 @@
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: #2c3e50;
-    background: url('./assets/ben-neale-zpxKdH_xNSI-unsplash.jpg') no-repeat center center fixed;
+    /* background: url('./assets/ben-neale-zpxKdH_xNSI-unsplash.jpg') no-repeat center center fixed; */
     background-size: cover;
     position: fixed;
     min-height: 100%;
