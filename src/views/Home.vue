@@ -19,17 +19,27 @@
     <selectCharacter />
 
 
+
   </div>
 </template>
 
 <script>
   import selectCharacter from '../components/SelectCharacter.vue'
+
+
+
   export default {
+    data() {
+      return {
+
+      }
+    },
     name: 'Home',
     components: {
-      selectCharacter
+      selectCharacter,
     }
   }
+
 
 
 </script>
